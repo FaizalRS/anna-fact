@@ -138,3 +138,16 @@ body {
 .glyphicon-heart {
   color: #fa3030;
 }
+
+/* about */
+
+#pp {
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid rgb(243, 239, 239, 0.5);
+  ;
+}
+
+#verif {
+  margin-top: -8px;
+}
