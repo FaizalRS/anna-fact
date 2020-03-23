@@ -96,6 +96,7 @@ body {
   padding: 2rem;
   background-color: rgb(243, 239, 239, 0.2);
   border-radius: 40px;
+
 }
 
 .cover .btn-lg {
@@ -107,6 +108,7 @@ body {
 /*
  *body
  */
+.fact-menu {}
 
 .fact-menu:hover {
   background-color: rgb(243, 239, 239, 0.5);
