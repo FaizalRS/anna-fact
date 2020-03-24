@@ -4,6 +4,8 @@ $(".fact-menu").click(function(e) {
 
   if (fact == data) {
     window.location = "main-fact.html";
-    alert(fact);
+    if (fact == 1) {
+      $(".title-fact").html("<h3>Fact 1</h3>");
+    }
   }
 });
