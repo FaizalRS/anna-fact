@@ -1,3 +1,3 @@
 $(".fact-menu").click(function() {
-  window.location.href = "main-fact.html";
+  let fact = $(this).data("fact");
 });
