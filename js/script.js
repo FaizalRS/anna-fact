@@ -6,15 +6,8 @@ $(document).ready(function() {
     if (fact == data) {
       if (fact == 1) {
         window.location = "main-fact.html";
-        $("#main-fact-tiitle").html("solved!");
+        judul(1);
       }
     }
-  });
-
-  $(window).bind("beforeunload", function() {
-    confirm("yakin?");
-  });
-  $("#title-fact").click(function() {
-    $(this).html("ok");
   });
 });
