@@ -1,5 +1,6 @@
-$(document).ready(function() {
-  function judul($data) {
-    $("#title-fact").html(`${$data}`);
-  }
-});
+var a;
+function judull($data) {
+  $("#tahubulat").click(function() {
+    alert("ok");
+  });
+}
