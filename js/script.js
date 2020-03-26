@@ -5,8 +5,6 @@ $(".fact-menu").click(function(e) {
   if (fact == data) {
     if (fact == 1) {
       // window.location = "main-fact.html";
-      var a = 8;
-      judull(a);
     }
   }
 });
